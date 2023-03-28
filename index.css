@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar 2 */
+
+body .Navbar2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    padding: 15px 200px;
+}
+
+body .Navbar2 .Logo span {
+    align-items: center;
+    font-size: 60px;
+}
+
+body .Navbar2 .Buttons {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 16px;
+    width: 1000px;
+}
+
+body .Navbar2 .Buttons .Items{
+    display: flex;
+    margin: 0 0 0 700px;
+    gap: 50px;
+}
+
+body .Navbar2 .Buttons .Items p {
+    color: #393939;
+    width: 60px;
+}
+
+body .Navbar2 .Buttons .Boton1 {
+    background: #393939;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+/* Footer */
+
+body .Footer {
+    align-items: center;
+    background: #242424;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body .Footer .Footer2 .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin: 40px;
+    width: 500px;
+}
+
+body .Footer .Footer2 .info > span {
+    color: #999999;
+    font-size: 60px;
+}
+
+body .Footer .Footer2 .info > p {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+body .Footer .Footer2 .info .Input {
+    align-items: center;
+    background: #ffffff;
+    border-radius: 50px;
+    color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+body .Footer .Footer2 .info .Input .enter {
+    border: none;
+    margin: 16px;
+    padding: 0 40px;
+}
+
+body .Footer .Footer2 .info .Input .Boton2 {
+    background: #999999;
+    border: none;
+    color: #242424;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 16px 40px;
+}
+
+body .Footer .Footer2 .Plataformas {
+    color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+}
+
+body .Footer .Copyright h5 {
+    background: #393939;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    width: 1535px;
+}
